@@ -112,6 +112,10 @@ fun MyApp() {
                         .height(56.dp),
                     onClick = { /*TODO*/ },
                     shape = MaterialTheme.shapes.medium,
+                    colors = ButtonDefaults.buttonColors(
+                        backgroundColor = green300,
+                        contentColor = gray
+                    )
                 ) {
                     Text(
                         text = "Create account",
