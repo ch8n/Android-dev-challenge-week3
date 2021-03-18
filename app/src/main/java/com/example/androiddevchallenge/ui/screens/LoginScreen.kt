@@ -19,6 +19,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.navigate
+import com.example.androiddevchallenge.ui.navigation.Screen
 import com.example.androiddevchallenge.ui.store.AppStore
 import com.example.androiddevchallenge.ui.theme.*
 
@@ -36,8 +38,6 @@ fun LoginScreen(navController: NavHostController) {
                     .fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-
-                val context = LocalContext.current
 
                 Text(
                     text = "Log in with email",
@@ -104,12 +104,7 @@ fun LoginScreen(navController: NavHostController) {
                         .fillMaxWidth(0.85f)
                         .height(dp48),
                     onClick = {
-
-                        Toast.makeText(
-                            context,
-                            AppStore.state.value.toString(),
-                            Toast.LENGTH_SHORT
-                        ).show()
+                        navController.navigate(Screen.Home.route)
                     },
                     shape = MaterialTheme.shapes.medium,
                     colors = ButtonDefaults.buttonColors(

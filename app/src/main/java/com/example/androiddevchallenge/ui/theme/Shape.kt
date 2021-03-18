@@ -23,3 +23,5 @@ val shapes = Shapes(
     small = RoundedCornerShape(dp4),
     medium = RoundedCornerShape(dp24)
 )
+
+val defaultCardCorner = RoundedCornerShape(dp8)
