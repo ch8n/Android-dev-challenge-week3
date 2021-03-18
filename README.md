@@ -1,27 +1,28 @@
-# Template repository
+# TheBloom - AndroidDevChallenge #3
 
-Template repository for the Jetpack Compose [#AndroidDevChallenge](https://developer.android.com/dev-challenge).
+![Workflow result](https://github.com/ch8n/theBloom-Compose-ADC-3/Check/badge.svg)
 
-## Getting started
-Copy this repository by pressing the "Use this template" button in Github.
-Clone your repository and open it in the latest [Android Studio (Canary build)](https://developer.android.com/studio/preview).
+## :scroll: Description
+Application build with ❤️ and 🚀 jetpack compose for Jetpack Compose #AndroidDevChallenge Week 3
 
-## Submission requirements
-- Follow the challenge description on the project website: [developer.android.com/dev-challenge](https://developer.android.com/dev-challenge)
-- All UI should be written using Jetpack Compose
-- The Github Actions workflow should complete successfully
-- Include two screenshots of your submission in the [results](results) folder. The names should be
-  screenshot_1.png and screenshot_2.png.
-- Include a screen record of your submission in the [results](results) folder. The name should be
-  video.mp4
-- Replace the contents of [README.md](README.md) with the contents of [README-template.md](README-template.md) and fill out the template.
+### Android Developer Challeneg 2021 - Week 3
 
-## Code formatting
-The CI uses [Spotless](https://github.com/diffplug/spotless) to check if your code is formatted correctly and contains the right licenses.
-Internally, Spotless uses [ktlint](https://github.com/pinterest/ktlint) to check the formatting of your code.
-To set up ktlint correctly with Android Studio, follow one of the [listed setup options](https://github.com/pinterest/ktlint#-with-intellij-idea).
+Application to participate in [Android Dev Challenege 2021 - week 3](https://android-developers.googleblog.com/2021/03/android-dev-challenge-3.html)
 
-Before committing your code, run `./gradlew app:spotlessApply` to automatically format your code.
+This contains implementation for Asia-Pacific Region Assets [here](https://github.com/android/android-dev-challenge-compose/blob/assets/Bloom.zip)
+
+
+## Built With 🛠
+- [Kotlin](https://kotlinlang.org/) official programming language for Android development.
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) Android’s modern toolkit for building native UI.
+
+
+## :camera_flash: Preview
+<!-- You can add more screenshots here if you like -->
+<img src="./onboard.jpg" width="200">&emsp;<img src="./login.jpg" width="200">&emsp;<img src="./home.jpg" width="200">
+
+## :eyes: Social
+[LinkedIn](https://bit.ly/ch8n-linkdIn) | [Medium](https://bit.ly/ch8n-medium-blog) | [Twitter](https://bit.ly/ch8n-twitter) | [StackOverflow](https://bit.ly/ch8n-stackOflow) | [CodeWars](https://bit.ly/ch8n-codewar) | [Portfolio](https://bit.ly/ch8n-home) | [Github](https://bit.ly/ch8n-git) | [Instagram](https://bit.ly/ch8n-insta) | [Youtube](https://bit.ly/ch8n-youtube)
 
 ## License
 ```
