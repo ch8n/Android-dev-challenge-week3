@@ -1,6 +1,6 @@
 # TheBloom - AndroidDevChallenge #3
 
-## :scroll: Description
+### :scroll: Description
 Application build with ❤️ and 🚀 jetpack compose for Jetpack Compose #AndroidDevChallenge Week 3
 
 ### Android Developer Challeneg 2021 - Week 3
