@@ -1,7 +1,5 @@
 # TheBloom - AndroidDevChallenge #3
 
-![Workflow result](https://github.com/ch8n/theBloom-Compose-ADC-3/Check/badge.svg)
-
 ## :scroll: Description
 Application build with ❤️ and 🚀 jetpack compose for Jetpack Compose #AndroidDevChallenge Week 3
 
