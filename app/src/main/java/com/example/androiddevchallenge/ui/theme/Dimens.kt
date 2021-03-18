@@ -11,8 +11,14 @@ val sp12 = 12.sp
 val dp1 = 1.dp
 val dp2 = 2.dp
 val dp4 = 4.dp
+val dp8 = 8.dp
 val dp16 = 16.dp
 val dp24 = 24.dp
+val dp32 = 32.dp
+val dp40 = 40.dp
+val dp48 = 48.dp
+val dp72 = 72.dp
+val dp88 = 88.dp
 
 val lsHeading = 0.15.sp
 val lsButton = 1.sp
