@@ -19,11 +19,8 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
-import androidx.navigation.NavHostController
-import com.example.androiddevchallenge.ui.screens.loginScreen
-import com.example.androiddevchallenge.ui.screens.onboardingScreen
-import com.example.androiddevchallenge.ui.theme.*
+import com.example.androiddevchallenge.ui.navigation.BloomNavigation
+import com.example.androiddevchallenge.ui.theme.MyTheme
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 // Start building your app here!
 @Composable
 fun MyApp() {
-    loginScreen(NavHostController(LocalContext.current))
+    BloomNavigation()
 }
 
 

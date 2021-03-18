@@ -11,12 +11,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.navigate
 import com.example.androiddevchallenge.R
+import com.example.androiddevchallenge.ui.navigation.Screen
 import com.example.androiddevchallenge.ui.theme.*
 
 
 @Composable
-fun onboardingScreen(navController: NavHostController) {
+fun OnboardingScreen(navController: NavHostController) {
     Surface(color = MaterialTheme.colors.primary) {
 
         Image(
@@ -70,8 +72,8 @@ fun onboardingScreen(navController: NavHostController) {
 
                 Button(
                     modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .height(56.dp),
+                        .fillMaxWidth(0.85f)
+                        .height(dp48),
                     onClick = { /*TODO*/ },
                     shape = MaterialTheme.shapes.medium,
                     colors = ButtonDefaults.buttonColors(
@@ -89,9 +91,11 @@ fun onboardingScreen(navController: NavHostController) {
 
                 TextButton(
                     modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .height(56.dp),
-                    onClick = { /*TODO*/ }
+                        .fillMaxWidth(0.85f)
+                        .height(dp48),
+                    onClick = {
+                        navController.navigate(Screen.Login.route)
+                    }
                 ) {
                     Text(
                         text = "Log in",
@@ -109,7 +113,7 @@ fun onboardingScreen(navController: NavHostController) {
 @Composable
 fun DarkPreview() {
     MyTheme(darkTheme = true) {
-        onboardingScreen(NavHostController(LocalContext.current))
+        OnboardingScreen(NavHostController(LocalContext.current))
     }
 }
 
@@ -118,6 +122,6 @@ fun DarkPreview() {
 @Composable
 fun LightPreview() {
     MyTheme {
-        onboardingScreen(NavHostController(LocalContext.current))
+        OnboardingScreen(NavHostController(LocalContext.current))
     }
 }
